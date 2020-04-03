@@ -1,0 +1,424 @@
+WEBVTT
+
+00:00.260 --> 00:05.130
+In this video we're going to talk about how to get set up for Android development on Windows.
+
+00:05.130 --> 00:09.630
+I'm going to show you all the tools that you need to download to get set up for making Android apps
+
+00:09.630 --> 00:11.310
+on a Windows machine.
+
+00:11.310 --> 00:15.480
+Now for part of this demo I'll be sharing a screen on a machine that's running Windows 8.
+
+00:15.690 --> 00:19.750
+If you're running Windows 10 it might be slightly different but it shouldn't be too far off.
+
+00:20.640 --> 00:25.480
+The first thing we're going to do is check if we're running a 64 bit or 32 bit machine.
+
+00:25.740 --> 00:32.760
+So go to your control panel you can find it under settings control panel and then click on system and
+
+00:32.760 --> 00:35.130
+there you'll be able to find your system type.
+
+00:35.130 --> 00:37.930
+Mine says 64 bit operating system.
+
+00:38.340 --> 00:42.320
+So make a note if you've got a 64 bit or 32 bit machine.
+
+00:42.330 --> 00:45.860
+Most modern computers will probably be 64 bit.
+
+00:45.870 --> 00:48.890
+Now it's time to check if you've got the Java development kit.
+
+00:49.230 --> 00:54.790
+The Java development kit is what you'll need to make Android apps or any java program for that matter.
+
+00:55.020 --> 01:00.100
+The JDK includes things like the Java runtime environment and the Java compiler.
+
+01:00.510 --> 01:04.910
+Here's how you can check if you've already got Java installed and can move onto the next.
+
+01:05.370 --> 01:09.720
+If you're already set up with Java you should be able to see a little icon on your Control Panel that
+
+01:09.720 --> 01:10.800
+reads Java.
+
+01:11.130 --> 01:16.740
+However you'll also need to make sure you've got a relatively recent version so click on the icon and
+
+01:16.740 --> 01:19.650
+then click about and here you'll see a build number.
+
+01:19.650 --> 01:24.030
+This should read 1.8 or higher so don't have the very latest one installed.
+
+01:24.030 --> 01:30.310
+Mine reads version 8 update 77 which is fine if you need to get hold of the JDK.
+
+01:30.330 --> 01:36.720
+The easiest way is to type Java development kit into Google and head to the Oracle Web site on the Oracle
+
+01:36.720 --> 01:41.940
+Web site you'll see the latest Java development kit available for download to download the JDK you first
+
+01:41.940 --> 01:44.040
+have to accept the license agreement.
+
+01:44.040 --> 01:47.120
+So click accept and scroll down the list of options.
+
+01:47.370 --> 01:51.210
+Now for Windows users is going to be two options that are going to be relevant.
+
+01:51.420 --> 01:55.050
+They'll be the 64 bit version the x 64.
+
+01:55.290 --> 02:01.460
+And then there will be the 32 bit version which confusingly is labelled X 86.
+
+02:01.470 --> 02:06.210
+Now if you've got a 64 bit machine like myself and almost every computer that you would have bought
+
+02:06.300 --> 02:09.090
+in the past three years is 64 bit.
+
+02:09.090 --> 02:11.070
+You're going to download that x 64.
+
+02:11.110 --> 02:16.330
+X-File otherwise you're going to pick that file above to match it with your chipset.
+
+02:16.400 --> 02:22.700
+Once you've downloaded the file executed and just follow along with the wizard after the JDK has finished
+
+02:22.700 --> 02:23.630
+installing.
+
+02:23.660 --> 02:29.930
+Pick your destination folder and in-door Oracle bragging how many devices run Java after a successful
+
+02:29.930 --> 02:30.560
+install.
+
+02:30.560 --> 02:35.960
+You'll definitely see that Java icon appear in your control panel and when you click on it again you'll
+
+02:35.960 --> 02:38.800
+be able to double check the version that you've just installed.
+
+02:39.200 --> 02:43.190
+As long as that version number reads 8 and above you're fine.
+
+02:43.190 --> 02:49.820
+Now it's time to install Android studio search for download Android studio in your browser and then
+
+02:49.820 --> 02:52.880
+we're going to head to developer Android dot com.
+
+02:53.030 --> 02:58.220
+From there we're going to download the latest version of Android studio again will be presented with
+
+02:58.220 --> 03:01.420
+a wizard where we have to agree to the terms and conditions.
+
+03:01.430 --> 03:02.750
+I wonder who actually reads these.
+
+03:02.750 --> 03:08.030
+I'm pretty sure that by now I've promised somebody my first born child that Andrew is actually a pretty
+
+03:08.030 --> 03:13.320
+large file and it seems to be getting larger with every update after the download has finished.
+
+03:13.370 --> 03:15.500
+Follow the set of ways to install it.
+
+03:15.500 --> 03:19.160
+You'll probably be presented with some sort of dialog box just like this.
+
+03:19.160 --> 03:19.720
+Just click.
+
+03:19.730 --> 03:25.360
+I do not have a previous version of Android studio and click OK now after you've done all that.
+
+03:25.370 --> 03:26.830
+Here comes the best part.
+
+03:26.840 --> 03:28.350
+Fire up the Android studio.
+
+03:28.400 --> 03:32.840
+It's time to start that program now as you can already tell by the download file size.
+
+03:32.920 --> 03:38.330
+Anders studio is pretty enormous and it's pretty greedy program too if it takes ages to run Android
+
+03:38.330 --> 03:41.510
+studio and your computer is slow and frustrating to use.
+
+03:41.540 --> 03:46.370
+Then check out my other video where I've put together some performance tips to spice things up a little.
+
+03:46.390 --> 03:50.990
+Now the first thing you actually want to do after installing Android studio is check for updates.
+
+03:51.020 --> 03:55.670
+Click on the gear icon where it says configure and select check for updates.
+
+03:55.670 --> 03:58.840
+Chances are there are some updates available that you should install.
+
+03:59.180 --> 04:02.900
+OK so now we've got the JDK sorted and Android studio sorted.
+
+04:02.900 --> 04:07.850
+Now it's time to configure our physical device so that we can install our apps on it.
+
+04:07.850 --> 04:11.920
+Take your physical Android phone and go to the settings and then in the settings.
+
+04:11.960 --> 04:17.540
+Scroll all the way down where it says about or about phone and there you'll have to look for something
+
+04:17.540 --> 04:19.280
+called a build number.
+
+04:20.020 --> 04:23.770
+So on this HGC that I've got it's under software information.
+
+04:23.770 --> 04:27.270
+And then more and Herods varied as a line item.
+
+04:27.460 --> 04:31.930
+Now start tapping on that build number after you've tapped on it in a couple of times you're gonna see
+
+04:31.930 --> 04:37.060
+these messages start appearing you are x steps away from being a developer.
+
+04:37.450 --> 04:42.910
+So after you've tapped that seven times you become part of the secret developer club and a secret menu
+
+04:42.910 --> 04:43.930
+up his.
+
+04:43.930 --> 04:49.750
+So if you go back to your settings now you'll see a menu that was previously hidden namely the developer
+
+04:49.750 --> 04:51.000
+options menu.
+
+04:51.270 --> 04:57.940
+So go into the developer options for your phone and search for an item that reads USP debugging.
+
+04:57.970 --> 05:03.370
+Make sure you enable us be debugging because taking that option is crucial for making sure the phone
+
+05:03.370 --> 05:06.580
+is being recognized by the computer when you plug it in.
+
+05:06.580 --> 05:10.870
+Now one of the difficulties with Android is that there isn't really one standard and your menu might
+
+05:10.870 --> 05:13.610
+actually look slightly differently on your own phone.
+
+05:13.660 --> 05:16.280
+So let me show you a nexus device for comparison.
+
+05:16.600 --> 05:20.990
+So this nexus device had the build number buried in there about phone section.
+
+05:21.180 --> 05:24.810
+So the message is you're going to have to hunt around a little bit for the stuff depending on what kind
+
+05:24.810 --> 05:29.550
+of phone you've got and what kind of version of Android you're running after you've been able to use
+
+05:29.730 --> 05:31.440
+that bugging on your phone or tablet.
+
+05:31.590 --> 05:34.100
+It's time to grab some Goosby cables.
+
+05:34.140 --> 05:36.930
+We're going to connect our device to our computer.
+
+05:36.930 --> 05:40.960
+Now one thing I'll say about Gisby cables is make sure you get some good ones.
+
+05:40.980 --> 05:46.260
+Either use the ones that came with the device or use some good quality ones that you've got off Amazon.
+
+05:46.410 --> 05:50.260
+The way we're going to check that everything's working is we're going to open up Android studio started
+
+05:50.370 --> 05:55.830
+a new project and plug in our phone to make sure it's being recognized and that way we can check that
+
+05:55.830 --> 05:58.780
+everything is working and we're all set up and good to go.
+
+05:59.100 --> 06:04.120
+So start a new project an android studio and go through that wizard that doesn't really matter what
+
+06:04.120 --> 06:08.440
+you put in these fields for now because we're just going to start a blank project after you've gone
+
+06:08.440 --> 06:13.000
+through the wizard and the studio will start building the project which may take a little while depending
+
+06:13.000 --> 06:14.650
+on the speed of your machine.
+
+06:14.650 --> 06:19.490
+But after it's done it should drop you off in a screen like this on the tab at the bottom left.
+
+06:19.600 --> 06:21.230
+Click on Android monitor.
+
+06:21.250 --> 06:24.130
+This will bring up a small window at the bottom of the screen.
+
+06:24.130 --> 06:30.000
+At this point you'll probably see a gray message reading initialising 80 or Android de-bug bridge.
+
+06:30.120 --> 06:34.720
+This is the name of the tool that enables communication between your computer and your physical Android
+
+06:34.720 --> 06:35.520
+device.
+
+06:36.640 --> 06:39.510
+Now plug in your Android device into your computer.
+
+06:39.640 --> 06:43.930
+Keep an eye on the phone screen because you might see a prompt where you have to trust the computer
+
+06:43.930 --> 06:45.730
+that you just plug it into.
+
+06:45.820 --> 06:50.740
+If all went well you should see log messages starting to scroll and the Android monitor.
+
+06:50.820 --> 06:55.240
+Now if you don't see your device appear in the Android monitor and those log messages scrolling there's
+
+06:55.270 --> 06:59.580
+a problem most likely is that you haven't enabled you'll be debugging.
+
+06:59.590 --> 07:03.860
+Take another look at the Android device that you've plugged in in the status bar at the top.
+
+07:03.880 --> 07:06.740
+You should see some symbols that look similar to these.
+
+07:06.880 --> 07:11.320
+These symbols indicate that you're speed of bugging is enabled and you should also be able to see this
+
+07:11.320 --> 07:13.360
+in your notification drawer.
+
+07:13.360 --> 07:16.510
+Another common problem is a bad or damaged cable.
+
+07:16.510 --> 07:20.440
+So for this demo if I actually use the pretty crappy cable to show you what can happen.
+
+07:20.750 --> 07:25.700
+So even though I've got my HTC plugged in it's currently showing us disconnected.
+
+07:25.900 --> 07:30.280
+And that's because the cable is pretty shoddy and it loses the connection if it's not just the right
+
+07:30.280 --> 07:31.460
+angle.
+
+07:31.480 --> 07:35.680
+Also some cables out there are just charge the device they don't actually transfer any data.
+
+07:35.680 --> 07:39.930
+So it's really worth investing in a decent cable if you're going to be doing any Android development.
+
+07:40.300 --> 07:44.580
+It's also worth checking how your Android device is connected to your laptop.
+
+07:44.680 --> 07:50.260
+So if you pull down that notification drawer you should see something like connected as empty the media
+
+07:50.260 --> 07:54.550
+transfer protocol but this might not necessarily be your default option.
+
+07:54.760 --> 08:01.030
+If you see something else listed here like transfer files or supply power or use as midi device then
+
+08:01.030 --> 08:03.780
+click on that option and change it to empty.
+
+08:03.910 --> 08:07.770
+Because otherwise Android studio won't necessarily pick it up.
+
+08:07.780 --> 08:12.940
+Now one other thing that we've seen trip people up other than the speed of plugging in the cable is
+
+08:13.140 --> 08:14.050
+device drivers.
+
+08:14.050 --> 08:19.510
+Right now Windows machine needs a driver for every piece of hardware a printer phone that you plug in
+
+08:19.510 --> 08:20.610
+your graphics card.
+
+08:20.670 --> 08:22.270
+Everything's got to drive right.
+
+08:22.810 --> 08:29.220
+And if all goes well Windows should be able to automatically download and install the necessary drivers
+
+08:29.230 --> 08:31.150
+when you plug in a new device.
+
+08:31.150 --> 08:33.430
+However Windows doesn't always get it right.
+
+08:33.610 --> 08:37.240
+So you might have to actually download and install the driver manually.
+
+08:37.240 --> 08:42.190
+Now hopefully it won't come to this but if it does the Android studio developer Web site is actually
+
+08:42.250 --> 08:46.510
+good for helping people out on the same page where you've downloaded Android studio.
+
+08:46.510 --> 08:53.480
+You can go to a user guide and then under build and run your app you'll see install OEM USP drivers.
+
+08:53.560 --> 08:59.110
+This is under a submenu called run apps on a hardware device and there you'll see that the folks at
+
+08:59.110 --> 09:02.770
+Google have collated a list of manufacturer's web sites.
+
+09:02.770 --> 09:07.210
+So depending on which phone you've got you can select the relevant one and download the driver.
+
+09:07.270 --> 09:12.040
+So I hope this video was helpful in getting everything set up and working in the next lesson.
+
+09:12.040 --> 09:16.270
+We're going to configure and tweak Android Sudie a tiny bit so that it's a bit more helpful with our
+
+09:16.270 --> 09:17.150
+workflow.
+
+09:17.410 --> 09:18.440
+I'll see you there.

@@ -1,0 +1,52 @@
+WEBVTT
+
+00:00.460 --> 00:06.450
+In this video we're going to go over all the tools and kids you need to make Android apps for this course.
+
+00:07.210 --> 00:10.370
+First off you're going to need a Mac or PC.
+
+00:10.510 --> 00:14.860
+As long as you're not running a Chromebook or a tablet you'll be just fine.
+
+00:14.860 --> 00:22.000
+Now one thing I'll say is that you'll get a massive performance boost if your machine doesn't have a
+
+00:22.000 --> 00:24.610
+spinning magnetic disk for a hard drive.
+
+00:24.760 --> 00:29.610
+If you've got an SSD then Android studio will run much much faster.
+
+00:29.910 --> 00:36.190
+What does Android studio androids do to you is the official development environment that is supported
+
+00:36.190 --> 00:43.760
+by Google to make apps for Android will be using Android studio both to write the logic of our apps
+
+00:44.150 --> 00:47.610
+as well as to design the look and feel of them.
+
+00:48.810 --> 00:54.030
+Now when it comes to running the apps that you've build I recommend running them on a physical Android
+
+00:54.030 --> 00:54.930
+device.
+
+00:55.380 --> 01:00.450
+But if you don't have one you can always try running them in an emulator as well.
+
+01:00.630 --> 01:06.060
+An emulator is a virtual device that's going to be running on your machine but it takes up quite a few
+
+01:06.060 --> 01:06.780
+resources.
+
+01:06.810 --> 01:08.490
+It doesn't boot up that quickly.
+
+01:08.490 --> 01:14.940
+So if you've got a physical phone or tablet that's running Android even a Kindle Fire I recommend using
+
+01:14.940 --> 01:15.770
+that instead.

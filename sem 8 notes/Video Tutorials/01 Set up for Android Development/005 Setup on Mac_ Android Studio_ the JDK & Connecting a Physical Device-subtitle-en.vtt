@@ -1,0 +1,229 @@
+WEBVTT
+
+00:00.490 --> 00:04.530
+In this video we're going to talk about how to set up for Android development on a Mac.
+
+00:04.890 --> 00:08.530
+If you don't have a Mac and are planning to build Android apps on a Windows machine.
+
+00:08.550 --> 00:10.320
+Skip ahead to the next video.
+
+00:11.450 --> 00:15.120
+So first off you need something called a Java development kit.
+
+00:15.170 --> 00:20.130
+The Java development kit includes things like the Java runtime environment and the Java compiler.
+
+00:20.240 --> 00:22.090
+So how do we check if we've already got it.
+
+00:22.100 --> 00:32.780
+Click on search and open your open your terminal from there or just type Java space dash version.
+
+00:32.870 --> 00:40.910
+Now if you've already got Java installed and your version number will pop up here and we're looking
+
+00:40.910 --> 00:43.690
+for something 1.8 or higher.
+
+00:43.700 --> 00:48.720
+So I've got one point 8.0 underscore 7:7 and that's fine.
+
+00:48.860 --> 00:53.250
+If you don't have the Java development environment installed you will see a different message.
+
+00:53.270 --> 00:54.700
+You will see something like this.
+
+00:54.740 --> 00:58.250
+No Java Runtime present requesting install.
+
+00:58.250 --> 01:03.240
+If you don't have the Java development environment installed or you don't have at least version one
+
+01:03.240 --> 01:11.720
+point eight then type in download Java development kit into Google and head to the Oracle Web site on
+
+01:11.720 --> 01:12.870
+the Oracle Web site.
+
+01:12.890 --> 01:16.840
+You should see the latest Java development kit available for download.
+
+01:17.000 --> 01:25.600
+So just click accept license agreement and then over here download the GMG
+
+01:30.500 --> 01:39.470
+once you've downloaded the GMG just double click on the icons and go through the regular standard install
+
+01:39.470 --> 01:41.030
+process.
+
+01:41.030 --> 01:45.740
+After you've successfully installed the Java Development Kit let's check the terminal one more time
+
+01:45.740 --> 01:48.330
+to see if we've got the correct version.
+
+01:48.470 --> 01:59.300
+So search for terminal and then type in Java Python version and just make sure it says at least one
+
+01:59.300 --> 02:01.220
+point eight on here.
+
+02:02.030 --> 02:06.200
+Now it's time to install Android studio say download Android studio
+
+02:09.410 --> 02:16.030
+and we're going to head to developer dot Android dot com.
+
+02:16.200 --> 02:19.520
+And here we're going to grab Android studio for Mac.
+
+02:19.520 --> 02:24.610
+We can accept the terms and conditions and download another GMG
+
+02:27.430 --> 02:37.590
+So you open at the MGM and drag it to your application folder and simply fire up Android studio.
+
+02:37.700 --> 02:42.760
+It's a big program so if you've got an older computer might take a while until it fires up.
+
+02:42.770 --> 02:45.830
+You might also see a prompt like this.
+
+02:45.860 --> 02:50.780
+So just like I didn't have a previous version of Android studio and I do not want to import my settings
+
+02:51.310 --> 02:55.430
+and after it's booted up you'll be dropped off at this welcome screen.
+
+02:55.460 --> 03:00.270
+The first thing you actually want to do after you've just downloaded the Android sit you has you in
+
+03:00.260 --> 03:07.070
+a click configure and you get a click Check for updates because chances are there's probably some updates
+
+03:07.730 --> 03:10.930
+that you can download and install.
+
+03:10.970 --> 03:16.490
+Great now that we've installed Android studio if you have a physical device now's the time that we configure
+
+03:16.490 --> 03:18.740
+it so that we can install our apps on it.
+
+03:19.180 --> 03:24.710
+So go to your settings and your phone and you probably have to scroll all the way down to the bottom
+
+03:24.710 --> 03:26.860
+where it says about to about phone.
+
+03:27.260 --> 03:30.450
+And there you have to look for something called the bill number.
+
+03:30.470 --> 03:34.010
+So on this HGC it's under software information.
+
+03:34.010 --> 03:35.190
+Then more.
+
+03:35.360 --> 03:39.660
+And there it's buried as a line item.
+
+03:39.980 --> 03:44.840
+You click on that seven times of Tappenden seven times that after a while you start getting these messages
+
+03:44.870 --> 03:49.570
+your X steps away from being a developer after you tap it seven times.
+
+03:49.600 --> 03:55.760
+To become part of the secret club and a secret menu appears that was previously hidden so under your
+
+03:55.760 --> 04:02.010
+settings you should see something called developer options and you click on that.
+
+04:02.240 --> 04:06.510
+And there you see a thing called USPO debugging.
+
+04:06.560 --> 04:11.900
+So you want to make sure you enable that because that option is crucial for making sure your phone is
+
+04:11.900 --> 04:14.370
+being recognized when you plug it into your computer.
+
+04:14.570 --> 04:20.660
+So for comparison here's a nexus device and there's again there's the outbound phone section that's
+
+04:20.660 --> 04:26.750
+organized slightly differently and the build numbers there in the menu just have to hunt around for
+
+04:26.750 --> 04:31.730
+it depending on what kind of phone you've got after you have enabled developer mode on your phone or
+
+04:31.730 --> 04:34.800
+tablet find your USP cables.
+
+04:34.970 --> 04:39.410
+Now mind you try to find some quality ones either the ones that came with the device when you bought
+
+04:39.410 --> 04:42.480
+it or some good ones that you got off Amazon.
+
+04:42.500 --> 04:48.320
+Finally we're going to do is we're going to open Android studio and started a new project just to check
+
+04:48.320 --> 04:54.080
+everything is working to make sure that our phone is being recognized by the computer.
+
+04:54.080 --> 04:59.570
+So we just started a new project in the Android studio and just click next a couple of times in the
+
+04:59.570 --> 05:06.340
+wizard to start a blank project here and just wait for Android studio to create the project.
+
+05:06.560 --> 05:12.020
+After Android studio finishes building the project we should drop you off on a screen like this.
+
+05:12.230 --> 05:20.240
+Now click the Android monitor down here and it will open up this little tap and initialize the so-called
+
+05:20.300 --> 05:21.680
+Android de-bug bridge.
+
+05:21.740 --> 05:25.140
+This is responsible for talking to your device.
+
+05:25.190 --> 05:33.390
+Now plug in your Android device into your computer and wait for a bit.
+
+05:33.520 --> 05:38.350
+And what should happen is it should show up here and you should see log messages starting to scroll
+
+05:38.350 --> 05:39.600
+through the lock.
+
+05:39.840 --> 05:45.560
+Now if you don't see that then maybe you haven't enabled us be debugging on your device.
+
+05:45.580 --> 05:51.340
+So double check that the easiest way to check that is to look at the status bar on your Android device
+
+05:51.370 --> 05:57.490
+and look for the Android shake debugging symbol or you've got a bad or damaged cable.
+
+05:57.490 --> 06:02.400
+So in my case you can see that it connected but then it disconnected right away.
+
+06:02.500 --> 06:07.450
+And that's because the cable that I've used is not very good and it's got a bit of a loose connection
+
+06:08.050 --> 06:13.040
+so I hope you've got everything working and you manage to iron out any issues that you encountered in
+
+06:13.060 --> 06:13.720
+the next lesson.
+
+06:13.720 --> 06:18.790
+We're going to configure Android studios that are a bit more user friendly and speeds up our workflow.
